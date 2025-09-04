@@ -4,7 +4,7 @@ import React from "react"
 const Home = () => {
   return (
       <main>
-      <section id="inicio" className="h-screen bg-pink-100 flex items-center justify-center">
+      <section id="inicio" className="h-screen bg-pink-100 flex items-center justify-center bg-gradient-to-b from-[#380d37] to-[#2e34be]">
         <div className="text-center">
           <h2 className="mt-4 xl:mt-8">Oi mundo com Next.js</h2>
           <p className="mt-4 xl:mt-8"> Primeiro texto escito </p>
@@ -17,6 +17,13 @@ const Home = () => {
           <p className="mt-4 xl:mt-8"> Jaboticaba teste sobre mim</p>
         </div>
       </section>
+
+      <section id="skills" className="h-screen bg-blue-100 flex items-center justify-center">
+        <div className="text-center">
+          <h2 className="mt-4 xl:mt-8">Sobre mim</h2>
+          <p className="mt-4 xl:mt-8"> Jaboticaba teste sobre mim</p>
+        </div>
+      </section>      
 
       <section id="projetos" className="h-screen bg-green-100 flex flex-col items-center justify-center">
         <div className="text-center">
